@@ -10,7 +10,8 @@
 
  <h2 style="border: 2px solid #007bff; border-radius: 10px; padding: 10px; background-color: #e6f7ff; color: #00509e;">
   🧩 一、题目描述:  
-   
+
+   [P1036 [NOIP 2002 普及组] 选数](https://www.luogu.com.cn/problem/P1036)  
 这道题要求从 n 个数字中选 k 个并且这 k 个数字的和是素数。问选法共有几种？  
  </h2>
    
@@ -63,7 +64,7 @@ int main() {
 ```
 但是再仔细观察这题可以发现是从 n 个数中选出 k 个数，所以我们也可以想到高德纳提出的位运算算法--组合数生成:  
 <h2 style="border: 2px solid #007bff; border-radius: 10px; padding: 10px; background-color: #e6f7ff; color: #00509e;">
-  💡三、组合数生成算法:
+  💡二、组合数生成算法:
 </h2>
 
 ```cpp

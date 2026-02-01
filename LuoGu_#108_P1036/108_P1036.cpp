@@ -1,7 +1,6 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
-typedef long long ll;
+using ll = long long;
 const int Max = 1e8;
 
 int n, k;
@@ -10,7 +9,7 @@ bool is_Prime[Max + 1];
 
 void sieve() {
     is_Prime[0] = is_Prime[1] = true;
-    for (int i = 2; i * i < Max; ++i) {
+    for (int i = 2; i * i < Max; i++) {
         if (!is_Prime[i]) {
             for (int j = i * i; j < Max; j += i) {
                 is_Prime[j] = true;
