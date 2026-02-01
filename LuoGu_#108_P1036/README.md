@@ -10,7 +10,8 @@
 
  <h2 style="border: 2px solid #007bff; border-radius: 10px; padding: 10px; background-color: #e6f7ff; color: #00509e;">
   🧩 一、题目描述:  
-   
+
+   [P1036 [NOIP 2002 普及组] 选数](https://www.luogu.com.cn/problem/P1036)  
 这道题要求从 n 个数字中选 k 个并且这 k 个数字的和是素数。问选法共有几种？  
  </h2>
    
