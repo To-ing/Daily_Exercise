@@ -5,7 +5,7 @@
   </span>
 </h1>
 <h3 align="center" style="color: #6e7c7c;">
-  NOIP 2002 普及组 | 组合数生成算法
+  NOIP 2002 普及组 |  高斯珀黑客算法(组合数生成)
 </h3>
 
  <h2 style="border: 2px solid #007bff; border-radius: 10px; padding: 10px; background-color: #e6f7ff; color: #00509e;">
@@ -62,9 +62,9 @@ int main() {
     return 0;
 }
 ```
-但是再仔细观察这题可以发现是从 n 个数中选出 k 个数，所以我们也可以想到高德纳提出的位运算算法--组合数生成:  
+但是再仔细观察这题可以发现是从 n 个数中选出 k 个数，所以我们也可以想到高斯珀黑客算法:  
 <h2 style="border: 2px solid #007bff; border-radius: 10px; padding: 10px; background-color: #e6f7ff; color: #00509e;">
-  💡二、组合数生成算法:
+  💡二、 高斯珀黑客算法:
 </h2>
 
 ```cpp
